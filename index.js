@@ -21,7 +21,12 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  let str=`In your cart, you have `;
+  for (let i=0;i<cart.length-1;i++){
+    str+=`${cart[i].itemName} at \$${cart[i].itemPrice}, `
+  }
+  str+=`and ${cart[length-1].itemName} at \$${cart[length-1].itemPrice}.`
+  return str
 }
 
 function total() {
