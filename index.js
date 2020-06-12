@@ -60,7 +60,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   if (arguments.length===0){
     //console.log("hi")
-    return "Sorry, we don't have a credit card file for you."
+    return "Sorry, we don't have a credit card on file for you."
   }
   else{
     let t=total();
