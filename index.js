@@ -11,8 +11,8 @@ function setCart(c) {
 
 function addToCart(item) {
   let obj={
-    itemName:item,
-    itemPrice:Math.ceil(Math.random()*100)
+    'itemName':item,
+    'itemPrice':Math.ceil(Math.random()*100)
 
   }
   cart.push(obj);
