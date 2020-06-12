@@ -13,7 +13,7 @@ function addToCart(item) {
   let obj={
     itemName:item,
     itemPrice:Math.ceil(Math.random()*100)
-    
+
   }
   cart.push(obj);
   return `<${obj[itemName]}> has been added to your cart.`
