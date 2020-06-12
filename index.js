@@ -16,7 +16,7 @@ function addToCart(item) {
 
   }
   cart.push(obj);
-  return `<${obj.itemName}> has been added to your cart.`
+  return `${obj.itemName} has been added to your cart.`
 
 }
 
